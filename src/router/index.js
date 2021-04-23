@@ -94,17 +94,17 @@ export const constantRoutes = [
         meta: { title: '文档类别管理' }
       },
       {
-        path: 'menu1-2',
-        component: () => import('@/views/nested/menu1/menu1-2'),
-        name: 'Menu1-2',
+        path: 'menu3',
+        component: () => import('@/views/nested/menu3/index'),
+        name: 'Menu3',
         meta: { title: '修改系统公告' },
         
       },
       {
-        path: 'menu1-3',
-        component: () => import('@/views/nested/menu1/menu1-3'),
-        name: 'Menu1-3',
-        meta: { title: 'Menu1-3' }
+        path: 'menu4',
+        component: () => import('@/views/nested/menu4/index'),
+        name: 'Menu4',
+        meta: { title: 'Menu4' }
       }
     ]
   },
